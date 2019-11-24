@@ -6,4 +6,4 @@ RUN apt-get update && \
 
 RUN mkdir /app
 WORKDIR /app
-#ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["./entrypoint.sh"]
